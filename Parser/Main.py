@@ -102,5 +102,5 @@ def parse_mtu_timetable(html_file, output_file):
         writer.writerows(records)
 
 # Execution
-parse_mtu_timetable('Parser/Sem1_All_StudentSets.htm', 'csStdGrpsParsed_FINAL.tsv')
-print("Fixed parsing complete. Max timeslot should now be < 45.0")
+parse_mtu_timetable('Parser/Sem1_All_StudentSets.htm', 'AllStdGrpsParsed_FINAL.tsv')
+print("Parsing complete")
